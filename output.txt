@@ -1,1 +1,1 @@
-some text from input.text file
+some data from input text file
