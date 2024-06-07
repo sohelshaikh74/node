@@ -16,8 +16,13 @@
 
 // how to readfile 
 const reading= require('fs')
-const content=reading.readFileSync('./input.txt','utf-8')
-console.log(content);
+// const content=reading.readFileSync('./input.txt','utf-8')
+// console.log(content);
 
 // how to write file
-reading.writeFileSync('./output.txt',content)
+// reading.writeFileSync('./output.txt',content)
+
+
+const content2=reading.readFile('./files/start.txt','utf-8',(err,data)=>{
+    console.log(data);
+},console.log('rendering files'))
